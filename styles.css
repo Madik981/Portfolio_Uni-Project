@@ -127,6 +127,7 @@ section{
 .section__text__title{
     font-size: 3rem;
     text-align: center;
+    font-weight: 600;
 }
 
 .section__text__p2 {
@@ -222,7 +223,6 @@ button {
 
 .section__cards {
     width: 100%;
-    height:inherit;
     display: flex;
     justify-content: center;
     margin: 2rem 0;
@@ -247,10 +247,10 @@ button {
     height: 97vh;
 }
 
-.experience__cards-container {
+/* .experience__cards-container {
     width: 100%;
     height: auto;
-}
+} */
 
 .experience__sub-title {
     color: rgb(85, 85, 85);
@@ -273,4 +273,12 @@ button {
     display: flex;
     width: 30%;
     gap: 1rem;
+}
+
+/* Experience styles ends */
+
+/* Project styles starts */
+
+.projects {
+    height: 97vh;
 }
