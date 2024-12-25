@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -197,8 +198,11 @@ button {
 
 .about__container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 4rem;
     width: 100%;
+    height: 80%;
 }
 
 .about__pic{
