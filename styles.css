@@ -221,16 +221,11 @@ button {
     height:inherit;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 2rem 0;
     gap: 2rem;
 }
 
 .section__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
     padding: 1.5rem;
     flex: 1;
     background: white;
@@ -250,7 +245,7 @@ button {
 
 .experience__cards-container {
     width: 100%;
-    height: 80%;
+    height: auto;
 }
 
 .experience__sub-title {
@@ -272,5 +267,6 @@ button {
 
 .skill {
     display: flex;
+    width: 30%;
     gap: 1rem;
 }
