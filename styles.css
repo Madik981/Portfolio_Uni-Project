@@ -30,7 +30,7 @@ p {
     align-items: center;
 }
 
-.header__boxes-between{
+.boxes-between-container {
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -61,7 +61,7 @@ p {
     gap: 2rem;
 }
 
-.nav-item-container{
+.nav-item{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,9 +91,9 @@ p {
 }
 
 section{
-    padding-top: 4vh;
-    margin: 0 10rem;
+    padding: 4vh 10rem 0;
     min-height: fit-content;
+    position: relative;
 }
 
 /* Profile styles starts */
@@ -190,6 +190,12 @@ button {
     cursor: pointer;
     height: 2rem;
     width: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: 5rem;
+    bottom: 2.5rem;
 }
 
 /* Profile styles ends */
@@ -373,12 +379,14 @@ button {
 
 .footer {
     height: 26vh;
-    margin: 0 1rem;
+    background: #333333;
+    display: flex;
+    justify-content: center;
 }
 
 .footer__nav-link {
     font-size: 1.5rem;
-    color: #d50032;
+    color: white;
     text-decoration: none;
     transition: 0.3s ease;
 }
@@ -387,4 +395,16 @@ button {
     opacity: 0.75;
     text-underline-offset: 1rem;
     text-decoration: underline;
+}
+
+.logo-container {
+    width: 214px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    object-fit: cover;
 }

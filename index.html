@@ -8,22 +8,22 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__boxes-between">
+        <div class="boxes-between-container">
             <div class="header__box-left">
                 <p class="header__text">Name Surname</p>
             </div>
             <nav class="nav-container">
                 <ul class="nav-list-container">
-                    <li class="nav-item-container">
+                    <li class="nav-item">
                         <a href="#about" class="header__nav-link">About</a>
                     </li>
-                    <li class="nav-item-container">
+                    <li class="nav-item">
                         <a href="#experience" class="header__nav-link">Experience</a>
                     </li>
-                    <li class="nav-item-container">
+                    <li class="nav-item">
                         <a href="#projects" class="header__nav-link">Projects</a>
                     </li>
-                    <li class="nav-item-container">
+                    <li class="nav-item">
                         <a href="#contact" class="header__nav-link">Contact</a>
                     </li>
                 </ul>
@@ -33,7 +33,7 @@
     <main class="main">
         <section class="profile" id="profile">
             <div class="section__pic-container">
-                <img src="./assets/profile-pic.png" alt="Profile picture" class="section__pic">
+                <img src="./assets/1733313554955.jpg" alt="Profile picture" class="section__pic">
             </div>
             <div class="profile__box-right">
                 <div class="profile__box-rigth__text">
@@ -56,7 +56,7 @@
             <h1 class="section__text__title">About Me</h1>
             <div class="about__container">
                 <div class="section__pic-container">
-                    <img src="./assets/about-pic.png" alt="" class="about__pic">
+                    <img src="./assets/1735133982599.jpg" alt="" class="about__pic">
                 </div>
                 <div class="about__container__box">
                     <div class="section__cards">
@@ -76,6 +76,9 @@
                     </div>
                 </div>
             </div>
+            <a href="#experience" class="arrow">
+                <img src="./assets/arrow.png" alt="arrow" class="icon">
+            </a>
         </section>
         <section class="experience" id="experience">
             <p class="section__text__p1">Explore my</p>
@@ -118,6 +121,9 @@
                     </div>
                 </div>
             </div>
+            <a href="#projects" class="arrow">
+                <img src="./assets/arrow.png" alt="arrow" class="icon">
+            </a>
         </section>
         <section class="projects" id="projects">
             <p class="section__text__p1">Browse My Recent</p>
@@ -148,6 +154,9 @@
                     </div>
                 </div>
             </div>
+            <a href="#contact" class="arrow">
+                <img src="./assets/arrow.png" alt="arrow" class="icon">
+            </a>
         </section>
         <section class="contact" id="contact">
             <p class="section__text__p1">Get in Touch</p>
@@ -169,22 +178,27 @@
         </section>
     </main>
     <footer class="footer">
-        <nav class="nav-container">
-            <ul class="nav-list-container">
-                <li class="nav-item-container">
-                    <a href="#about" class="footer__nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="footer__nav-link">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="footer__nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="footer__nav-link">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="boxes-between-container">
+            <div class="logo-container">
+                <img src="./assets/image (1).png" alt="" class="logo">
+            </div>
+            <nav class="nav-container">
+                <ul class="nav-list-container">
+                    <li class="nav-item">
+                        <a href="#about" class="footer__nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="footer__nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="footer__nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="footer__nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 </body>
 </html>
