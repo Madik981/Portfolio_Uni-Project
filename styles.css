@@ -252,7 +252,7 @@ button {
     height: auto;
 } */
 
-.experience__sub-title {
+.section__sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
@@ -281,4 +281,11 @@ button {
 
 .projects {
     height: 97vh;
+}
+
+.project__img {
+    height: 90%;
+    width: 90%;
+    border-radius: 2rem;
+    object-fit: cover;
 }
