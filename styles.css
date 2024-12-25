@@ -140,7 +140,7 @@ section{
     justify-content: space-between;
 }
 
-.profile__box-right__btns {
+.btn-container {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -230,6 +230,9 @@ button {
 }
 
 .section__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 1.5rem;
     flex: 1;
     background: white;
@@ -252,7 +255,7 @@ button {
     height: auto;
 } */
 
-.section__sub-title {
+.experience__sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
@@ -288,4 +291,11 @@ button {
     width: 90%;
     border-radius: 2rem;
     object-fit: cover;
+}
+
+.projects__sub-title {
+    color: black;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin: 1rem;
 }
