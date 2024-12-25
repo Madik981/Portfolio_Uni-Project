@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: rgb(85, 85, 85);
+    text-align: center;
+}
+
+/* Header styles starts */
+
+.header{
+    height: 17vh;
+    margin: 0 auto;
+    /* border-bottom: solid 1px #d50032; */
+    background-color: #d50032;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__boxes-between{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__box-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__text{
+    font-size: 2rem;
+    color: white;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+.header__nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav-link{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.header__nav-link:hover{
+    opacity: 0.75;
+    text-underline-offset: 1rem;
+    text-decoration: underline;
+}
+
+/* Header styles ends */
+
+
+/* Main styles starts */
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    padding-top: 4vh;
+    margin: 0 10rem;
+    min-height: fit-content;
+}
+
+/* Profile styles starts */
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__pic-container{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 999px;
+    object-fit: cover;
+}
+
+.section__text__p1 {
+    text-align: center;
+}
+
+.section__text__title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.profile__box-right__buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__box-right__btns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.section__btn-white{
+    background-color: white;
+    color: #d50032;
+    border: 1px solid #d50032;
+}
+
+.section__btn-red{
+    background-color: #d50032;
+    color: white;
+    border: 1px solid #d50032;
+}
+
+.section__btn-white:hover{
+    background-color: #d50032;
+    color: white;
+}
+
+.section__btn-red:hover{
+    background-color: white;
+    color: #d50032;
+}
+
+.profile__box-right__links{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Profile styles ends */
+
+/* About styles starts */
+
+.about {
+    height: 97vh;
+}
+
+.about__container {
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+}
+
+.about__pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.about__container__box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__cards {
+    width: 100%;
+    height:inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 2rem;
+}
+
+.section__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+/* About styles ends */
+
+/* Experience styles starts */
+
+.experience {
+    height: 97vh;
+}
+
+.experience__cards-container {
+    width: 100%;
+    height: 80%;
+}
+
+.experience__sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience__skills-container {
+    display: flex;
+    width: 100%;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.skill {
+    display: flex;
+    gap: 1rem;
+}
