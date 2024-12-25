@@ -187,7 +187,6 @@ button {
 }
 
 .icon {
-    cursor: pointer;
     height: 2rem;
     width: 2rem;
 }
@@ -339,10 +338,9 @@ button {
     padding: 0.5rem;
 }
 
-.contact__icon {
+.icon.email {
     height: 2.5rem;
     width: 2.5rem;
-    cursor: pointer;
 }
 
 .contact__link-container {
