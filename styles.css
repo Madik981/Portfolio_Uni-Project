@@ -18,6 +18,7 @@ p {
     text-align: center;
 }
 
+
 /* Header styles starts */
 
 .header{
@@ -90,20 +91,12 @@ p {
     width: 100%;
 }
 
+/* Section styles starts */
+
 section{
     padding: 4vh 10rem 0;
     min-height: fit-content;
     position: relative;
-}
-
-/* Profile styles starts */
-
-.profile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    height: 80vh;
 }
 
 .section__pic-container{
@@ -136,10 +129,7 @@ section{
     margin-bottom: 1rem;
 }
 
-.profile__box-right__buttons{
-    display: flex;
-    justify-content: space-between;
-}
+/* Button styles starts */
 
 .btn-container {
     display: flex;
@@ -179,13 +169,6 @@ button {
     color: #d50032;
 }
 
-.profile__box-right__links{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    gap: 1rem;
-}
-
 .icon {
     height: 2rem;
     width: 2rem;
@@ -195,6 +178,34 @@ button {
     position: absolute;
     right: 5rem;
     bottom: 2.5rem;
+}
+
+/* Button styles ends */
+
+/* Section styles ends */
+
+
+/* Profile styles starts */
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.profile__box-right__buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.profile__box-right__links{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
 }
 
 /* Profile styles ends */
@@ -245,7 +256,6 @@ button {
     flex: 1;
     background: #f5f5f6;
     border-radius: 2rem;
-    /* border: rgb(163, 163, 163) 0.1rem solid; */
     text-align: center;
 }
 
@@ -265,11 +275,6 @@ button {
 .experience {
     height: 97vh;
 }
-
-/* .experience__cards-container {
-    width: 100%;
-    height: auto;
-} */
 
 .experience__sub-title {
     color: black;
@@ -373,6 +378,9 @@ button {
 
 /* Contact styles ends */
 
+/* Main styles ends */
+
+
 /* Footer styles starts */
 
 .footer {
@@ -406,3 +414,5 @@ button {
     width: 100%;
     object-fit: cover;
 }
+
+/* Footer styles ends */
