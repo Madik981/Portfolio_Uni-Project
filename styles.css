@@ -385,7 +385,8 @@ button {
 /* Footer styles starts */
 
 .footer {
-    height: 26vh;
+    min-height: 26vh;
+    height: 100%;
     background: #333333;
     display: flex;
     justify-content: center;
@@ -569,6 +570,12 @@ button {
 @media screen and (max-width: 600px) {
     .contact, .footer {
         height: 40vh;
+    }
+
+    .footer {
+        min-height: 40vh;
+        height: 100%;
+        padding-bottom: 1rem;
     }
 
     .profile {
