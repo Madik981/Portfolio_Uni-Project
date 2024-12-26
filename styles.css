@@ -424,6 +424,8 @@ button {
 
 .mobile-nav-container {
     position: relative;
+    justify-content: center;
+    align-items: center;
     display: inline-block;
 }
 
