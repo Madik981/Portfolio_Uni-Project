@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -29,7 +30,25 @@
                 </ul>
             </nav>
             <nav class="mobile-nav-container">
-
+                <div class="mobile-nav-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="mobile-nav-links">
+                    <li class="nav-item">
+                        <a href="#about" class="header__nav-link" onclick="toggleMenu()">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="header__nav-link" onclick="toggleMenu()">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="header__nav-link" onclick="toggleMenu()">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="header__nav-link" onclick="toggleMenu()">Contact</a>
+                    </li>
+                </div>
             </nav>
         </div>
     </header>
