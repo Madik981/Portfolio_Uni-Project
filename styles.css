@@ -296,8 +296,9 @@ button {
 
 .skill {
     display: flex;
-    width: 30%;
-    gap: 1rem;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
 }
 
 /* Experience styles ends */
@@ -416,3 +417,134 @@ button {
 }
 
 /* Footer styles ends */
+
+
+/* Media queries starts */
+
+.mobile-nav-container {
+    display: none;
+}
+
+@media screen and (max-width: 1400px){
+    .profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .section__cards {
+        flex-wrap: wrap;
+    }
+
+    .contact, .projects {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-container {
+        display: none;
+    }
+
+    .mobile-nav-container {
+        display: flex;
+    }
+
+    .experience {
+        margin-top: 2rem;
+    }
+
+    .profile, .about__container {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section, .about__container {
+        height: fit-content;
+    }
+
+    section {
+        padding: 4vh 5% 0;
+    }
+
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .section__pic, .about__pic {
+        width: 275px;
+        height: 275px;
+    }
+
+    .section__cards {
+        margin-top: 0;
+    }
+
+    /* .experience__skills-container {
+        gap: 2rem;
+    } */
+}
+
+@media screen and (max-width: 600px) {
+    .contact, .footer {
+        height: 40vh;
+    }
+
+    .profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+
+    .skill {
+        font-size: 1rem;
+    }
+
+    footer .nav-container {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .section__cards, .btn-container, .contact__links-container {
+        flex-wrap: wrap;
+    }
+
+    .contact__link-container .contact__link, .nav-list-container .nav-item .header__nav-link {
+        font-size: 1rem;
+    }
+
+    .experience__sub-title {
+        font-size: 1.25rem;
+    }
+
+    .header__text {
+        font-size: 1.5rem;
+    }
+
+    .nav-list-container {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .section__pic-container, .section__pic, .about__pic {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+
+    .section__text__title {
+        font-size: 2rem;
+    }
+
+    .about__text__container{
+        text-align: justify;
+    }
+}
